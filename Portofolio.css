@@ -1,0 +1,97 @@
+.body 
+{
+    font-size: 22px;
+    margin-right: 25px;
+    margin-left: 25x;
+    background-color: grey;
+}
+
+.header 
+{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.images
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.achiev1
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1
+{
+    display: flex;
+    justify-content: left;
+    width: 500px;
+    height: 380px;
+}
+
+.img2
+{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 380px;
+}
+
+.achiev2
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img3
+{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 380px;
+}
+
+.img4
+{
+    display: flex;
+    justify-content: right;
+    width: 500px;
+    height: 380px;
+}
+
+.cont
+{
+    font-size: 40px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.cont1
+{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.ig
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.facebook
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.x
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}

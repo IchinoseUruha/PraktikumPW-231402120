@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="Portofolio.css">
+
+    <style>
+        body
+        {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fcfcfc;
+            color: #211A18;
+            transition: .3s;
+        }
+
+        input [type="checkbox"]
+        {
+            position: relative;
+            width: 40px;
+            height: 20px;
+            appearance: none;
+            background-color: #434343;
+            outline: none;
+            border-radius: 10px;
+            transition: .3s ease;
+            cursor: pointer;
+        }
+
+        input [type="checkbox"] :checked
+        {
+            background-color: #3664ff;
+        }
+
+        input [type="checkbox"] :before
+        {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background-color: #fcfcfc;
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;   
+            transition: .3s ease; 
+        }
+
+        input [type="checkbox"] :checked :before
+        {
+            transform: translateX(20px);
+        }
+
+        .dark
+        {
+            background-color: #333333;
+            color: #fcfcfc;
+        }
+
+        h2 
+        {
+            font-size: 35px;
+        }
+
+        p
+        {
+            font-size: 27px;
+        }
+    </style>
+
+</head>
+<body>
+    Dark
+    <input type="checkbox" onclick="ChangeMod()">
+    
+    <div class="header">
+        <h1>Wynn Thomas Salim</h1>
+
+        <div class="images">
+            <img src="image.jpg" width="225px" height="240px">
+        </div>
+    </div>
+
+        <h2>Tentang Diri Saya</h2>
+        
+        <p>Saya adalah Mahasiswa dari Universitas Sumatera Utara (USU), dengan NIM [231402120] dari prodi Teknologi Informasi.
+        Alasan saya memilih Teknologi Informasi adalah karena saya ingin bisa membuat sebuah game yang bisa dimainkan oleh semua umur.</p>
+
+    <h2>Beberapa Hasil Kerja Saya</h2>
+    <div class="achiev1">
+        <div class="img1">
+            <img src="c:\Users\MSI GL76 PULSE\Pictures\Screenshots\Screenshot (326).png">
+       </div>
+
+       <div class="img2">
+            <img src="c:\Users\MSI GL76 PULSE\Pictures\Screenshots\Screenshot (327).png">
+       </div>
+    </div>
+
+    <br>
+
+    <div class="achiev2">
+        <div class="img3">
+            <img src="c:\Users\MSI GL76 PULSE\Pictures\Screenshots\Screenshot (328).png">
+       </div>
+
+       <div class="img4">
+            <img src="c:\Users\MSI GL76 PULSE\Pictures\Screenshots\Screenshot (329).png">
+       </div>
+    </div>
+    <br>
+
+    <div class="cont">
+        Kontak Saya
+    </div>
+
+    <div class="cont1">
+        <div class="ig">
+            <a href="https://instagram.com/l1m.28?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                <img src="InstaL.webp" width="40px" height="40px">
+            </a>
+        </div>
+
+        <div class="facebook">
+            <a href="https://www.facebook.com/wynnthomassalim.wynnthomassalim?mibextid=ZbWKwL" target="_blank">
+                <img src="FaceBL.png" width="40px" height="40px">
+            </a>
+        </div>
+
+        <div class="x">
+            <a href="https://x.com/Yukki3_5?t=o8EYvM-1odYNID_G2EWlAg&s=09" target="_blank">
+                <img src="XL.png" width="40px" height="40px">
+            </a>
+        </div>
+       
+    </div>
+
+    
+
+    
+    <script src="Portofolio.js"></script>
+</body>
+</html>
